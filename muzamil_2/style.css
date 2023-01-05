@@ -1,0 +1,29 @@
+h1{
+    color: black;
+    text-align: center;
+    font-size: 100px;
+}
+.btn1{
+    background-image: url("./dark.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+    border-radius: 25px ;
+}
+.btn1:hover, .btn2:hover, a:hover {
+    background-color: grey;
+  }
+.btn2{
+    background-image: url("./light.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+    border-radius: 25px ;
+}
+.bttns{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
